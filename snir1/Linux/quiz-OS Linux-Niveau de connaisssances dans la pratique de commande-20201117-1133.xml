@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour OS Linux</text>
+    </category>
+    <info format="html">
+      <text>La catégorie par défaut pour les questions partagées dans le contexte « OS Linux ».</text>
+    </info>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour OS Linux/Niveau de connaisssances dans la pratique de commande</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+  </question>
+
+<!-- question: 1218  -->
+  <question type="multichoice">
+    <name>
+      <text>Changer les droits sur un fichier</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Quelle commande <span style="font-weight: bold;">ne permet pas</span> de passer les droits du fichier toto de <br></h5>
+<h5>-rw-rw-r--&nbsp;&nbsp; à <br></h5><h5>-rwxr-----<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_15"><b>chmod</b> 
+permet de positionner les droits d'un fichier de plusieurs manières : de <b>
+manière absolue</b> et de <b>manière relative</b>.</span></p><p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_15"> La commande <code>chmod u=x,g-w,o= toto</code>
+ positionne le seul bit x pour le user, supprime le bit w pour le groupe
+ et efface tous les bits de other. <br></span></p><p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_15">Le résultat est donc -rw-rw-r-- 
+==&gt; x--r-----, ce qui n'est pas le résultat attendu.</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>chmod u=rwx,g=r,o= toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5><code>chmod u=x,g-w,o= toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>chmod 740 toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>chmod u+x,g-w,o-r toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1213  -->
+  <question type="multichoice">
+    <name>
+      <text>Chercher des fichiers dont le nom ne contient pas to</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Que fait la commande suivante :<code> <br></code></h5><p><code>ls | grep -v toto</code><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_11">la commande <code>grep </code>affiche les lignes lues sur son entrée standard (résultat de la commande <code>ls</code>) <br>qui ne contiennent pas la chaîne de caractères "toto" (option -v)</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>chercher le mot "toto" dans le fichier ls<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>liste les fichiers qui ne contiennent pas toto dans leur nom<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1205  -->
+  <question type="multichoice">
+    <name>
+      <text>Connaître le chemin emprunté par un paquet</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quelle commande permet de connaître le chemin emprunté par un paquet entre deux hôtes ?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_2">La commande <code>traceroute</code>
+ permet d'obtenir la liste des "sauts" (en anglais, "hops") que traverse
+ un paquet. <br></span></p><p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_2">Le chemin suivi par un paquet est déterminé à partir des 
+adresses IP sources des routeurs renvoyant des erreurs TTL-Exceeded 
+(protocole ICMP) lorsqu'ils reçoivent un paquet dont le champ TTL 
+(en-tête IP) expire, c'est-à-dire que le routeur recevant ce paquet 
+décrémente la valeur du TTL à 0. <br></span></p><p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_2">En incrémentant graduellement la valeur
+ du TTL à chaque paquet envoyé, on peut donc construire le chemin entre 2
+ hôtes de proche en proche.</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>arp<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>traceroute<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>dhclient<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>route<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1217  -->
+  <question type="multichoice">
+    <name>
+      <text>Créer une arborescence de répertoire</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Vous voulez créer la sous arborescence suivante, quelle commande est la bonne ?</h5><p><img src="@@PLUGINFILE@@/Capture%20du%202020-10-09%2015-38-55.png" alt="arborescence de répertoire" class="img-responsive atto_image_button_text-bottom" width="228" height="192"><br></p>]]></text>
+<file name="Capture du 2020-10-09 15-38-55.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAOQAAADACAIAAACbCFj6AAAAA3NCSVQICAjb4U/gAAAAGXRFWHRTb2Z0d2FyZQBnbm9tZS1zY3JlZW5zaG907wO/PgAADApJREFUeJzt3UFrE0EbB/BnXzwLa/wE2fTgqYJbvETBQ02NPbQgJiiIYCkkeBHRSj2IFIVaeq4pLZQebFJ68NAEQm82F0sOzVk3J/GUddEv0PfwvM1b2yYmu7OZncn/d6qxiTP239nZmd1njaOjIwJQwX9kNwCgVwgrKANhBWUgrKAMhBWUgbCCMhBWUAbCCspAWEEZCCsoA2EFZSCsoAyEVbBCoWAYhmEYr1+/lt0W3Ri46kqsRCLhOA4Rmab569cv2c3RCkZWkRqNhuM4tm1bluV5XrFYlN0irSCsIhUKBSJ6/vz57OwsEX3+/Fl2i7SCaYBIly5d8jyv1Wr9/v3bsiwiarVasVhMdrs0gZFVmEql4nleJpOJxWLxeNy2bSLa2dmR3S59IKzCbG5uEtHU1BT/cWZmhojW1tZktkkvmAaI4bru5cuXT64A8CtE5DhOPB6X2jpNYGQVY29vj4iy2Wz7lVgslslkiGh9fV1as/SCsIqxvLxMRJOTkydf5ClBqVSS0ybtYBogQLPZ5HP/VCp16q+q1SoRlcvldDotoWV6uSC7ATpon/JzNM/a3d1FWIPDNECA1dVVIiqXy0dnlMtlIioWi67rym6m8jANCKpWq924caPLlQCGYRDR1tbWydMv8AEja1CfPn2iv9cBTuE1AWy9BoewBsVXq9y8ebPTN7TXBJrN5uCapSOENZBGo+F5nmma4+Pjnb5nfHzcNE0iOjg4GGDTNIQ5KygDIysoA2EFZSCsoAyEFZSBsIIyEFZQBsIKykBYQRkIKygDYQVlIKygDIQVlIGwgjIQVlAGwgrKQFhBGQgrKANh9a9YLBqGkc/ne/nmiYkJwzBQXjgIhNU/LhnU5VbBk6anp4loY2Mj1CbpDfdg+dQuGdRjueD296OooG8YWX3i2oC5XK7HwtbxeJwLCHC9QfABYfWJawOeKhvYHRcQWFpaCqtNusM0wI9/lgw6l+u6IyMjnucdHh6Ojo6G1zxdYWT1g0sG5XK5vt4Vi8W4ytD29nYozdIdRlY/+KksPgbISqVy9+5dPM/NH4ysfSsWi57nWZbl41CeTqf5eW6VSiWMtukNYe0b1wN88eKFv7fzmsDu7q7INg0HTAP6E3y5tNFoXL16lfA8t/5hZO0Pr5JmMhnfC/ujo6P8PDcsuPYLYe0PP4St/WQ2f/h5bth67RemAX3gI7hpmt++fQtyBMfWqz8YWfvA66PZbDbgXBNbr/4grH3wscXaCbZefUBYe1WpVBzHsSxLyBOtuHa74ziNRiP4pw0JhLVXvDLKh+/gsPXqA06wehLGNSjYeu0XRtae7O3teZ5n27bAq6Ww9dovhLUnvCbK66MCYeu1L5gG/Fu/d7D0DluvfcHI+m/8sLVMJiM8T6Ojo/zU969fv4r9ZC1hZAVlYGQFZSCsoAyEFZSBsIIyEFZQBsIKykBYQRkIKygDYQVlIKygDIQVlIGwgjIQVlAGwgrKQFhBGQgrNRoNwzAMwxgbG5Pdlv8ZGxsz/pZIJPL5/JDft42Lrymfz6+srPDXESmgbhgGEdm23b43oVqt8hf7+/vJZFJay+Q6GnqmadLxvXu5XE52c46OjoeP/f399iutVotrD1qWJbFhcg37NIDLWOdyuadPn/IfZbfofLFY7O3bt0TkOE6z2ZTdHDmGPaxcxnpycjKZTEb8Lv6LFy/yFz9//pTbElmGOqyu65ZKJdM0uXwVzwQ2Nzdlt+t8f/78ISLTNId2zjrUYd3Z2SEirjlFRPfv3yeiUqnkuq7MZp2n2Wy+efOGiF69eiW7LfLInjTLxKcsh4eHp17Z2tqS2Kqj4xMs27ZTx/iV+fl5uQ2Ta3jD6jgOnTm5/vjxI6dEVqtYl8FlcXFRbtskGt5pAD8p+FQJy/HxcSKq1+tROOM+uXTlOM7i4iIRzc3NffjwQXbT5BjeTYFEIuE4zsmFd3ZwcOB53vz8/Lt372S1jTcFzq7/f/jwYW5uLvhDDVQlb1CXaX9/v/t/i9y1d27DyZGVtZt99q+GwZBOA/hJweeer7RaLSJyHKdWq8luJvxlGMPqui7vVPFa1SmxWIzPvjnQkfLjxw/+4sqVK3JbIsUwhpXLWHd5UvD09DRFb+u1Vqvl83kiyuVywzhhJboguwES8Bbr7du3O30Drwl4nlcsFttbBoP37Nmzdihd163X60Rk2/bCwoKsJkk2+GmydHyZVfdzFJ4JyLoIi/cmTkmlUtJ3K+Qa3qUrUM4wzllBUQgrKANhBWUgrKAMhBWUgbCCMhBWUAbCCspAWEEZCCsoA2EFZSCsoAyEFZSBsIIyEFZQBsIKytA5rM1mk2tG+3t7rVYL8vZ+JRIJwzB8F9fgAtlRqM0RHp3DyjVXutxr1V0ymTRNczD3ZFcqFcdxLMuKx+P+PoFLy3CpOV3pHNZSqUREk5OTvj+B7xYcwD3Zu7u7dKaWUV+mpqaIaHV1VVibIkj2TWBhKZfLFLiwyuHhIRGZpimqVefishpE5DhOkM/hGyFPFkXUjLYja/CxiohGR0e5HHaoNQT29vaIyLZt33MAxseBQqEgplnRo2dYu9dc6cvs7CwdlxoIycbGBhHNzMwE/JwHDx5Q9GpziCR7aA/F1tYWCSqzymVciajVagX/tLA/37IsIiqXy8E/KoL0HFl5IAw+VhFRPB7nkhMhnWjzHCCTyQipCBTxxyIEJfu3Rbz2WBXwfKVN4Dh9Fo+FokqthH0ckEvDsHKp9UwmI+oDRZ2tnxXGakNEHosQBg2nAUtLS3S87ihELBbjwyvvMgjEZ+5ia7/x5Gd5eVngZ0aF7N8WwUJaGRWyantWGCuj4R0HpNNtZN3e3ibRYxURpdNp4VuvlUqle5lYf9rHAf22XnULKz/fmlccxRK+9crn7LyOK5a2W6+yh3aRQjpYM7ETjLAP1lpuvWo1sgrZYu1E7NarqC3WTvTcepX92yLMAE4s+LFpQhbFwl5g4ocQhX0JzoDpE9ZQl+6ZqCX3wSzd67f1qs80QNTlIF2I2nrlt4vaYu1Ew61X2b8tYgxsm1HI+D2YMU+/rVdNRtbBjFUk4knEtVrNcRzTNNPptNCmndY+DvDJnAY0CSuvKT569Cjsfyj41iuv1OZyOZHN6kC3rVfZQ7sAfLwb2Jkvn2j7ngnwHGAwK6CtVosXXPWYCeA5WKAMTaYBMAwQVlAGwgrKQFhBGQgrKANhBWUgrKAMhBWUgbCCMhBWUAbCCspAWEEZCCsoA2EFZSCsoIyIhjWbzfKzciqViuy2EBFVKhXjjImJCSE35svtbKhdE0z21d/naN/pRkIrVwbBFQNM00wd4wv+iSiVSgX5ZOmdDa9rwkUxrO0Cq/xfFoVqePwTPfXD4ztdKVitCumdDa9rwkVxGsAFVt+/f59KpSjCN2dms1m+ffTLly++PySanRXSNeEiF9ZGo+E4DheBevz4MRGtra3JblRHfOe379uyo9zZgF0LQ+TCygVW+R7i9k36jUZDcrM6cF2XiKanp/29PcqdDdi1MEQurFxglX9y7Zv0+YcaNYVCoV6vm6Z57949f58Q2c4G71ooZE+a/8IFVk+eFIdacrV3nU6ZLcvyXQEgIp0No2shiVZYuU7JqTNQLtMgtxoe/0TPZdu2vx9qRDobRtdCEqFpgOu6Jw+LbVwXlwsFy3VqfadcLtu2Xa/Xb926xTO83kWtswK7Fp4Lshvwf7xqY5rmw4cPT77O/1krKysLCwth113rSzqdvn79+sjIiOd56+vrL1++7P29Ee9skK6FaLADeTe80NiFxAXqc1fOGTe7382e6HRWeNfCE5VpQLPZrFar1KGE2Pz8PB2XC9bAUHVWoKiEtXuB1Tt37hBRtVqN1Bo1+/79OxFdu3at97eo0lkfXQtVVMLKBVY7PcMymUzyaXJEdiOZ67r5fJ6vRHny5Envb4x+Z313LVzhzzT+jR8xRV0v4+CFHlkLrmcXI1OpFEeK+pxfRq2zArsWtkiEla886j6R5xK+3X/G4eHl+lMsy8rlcv22J2qdFdi1sKGYMCgjKnNWgH9CWEEZCCsoA2EFZSCsoAyEFZSBsIIyEFZQBsIKykBYQRkIKygDYQVlIKygDIQVlPFfxQkhmuh0AKEAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_14">Sans option,<b> <code>mkdir</code></b>
+ crée sans erreur, un répertoire (directory) si le chemin (path) de 
+l'endroit où il faut créer ce répertoire existe. <br></span></p><p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_14">L'option <b>-P</b> oblige la 
+création des répertoires intermédiaires qui pourraient manquer.</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><code>mkdir A/A/A A/A/B A/B/A A/B/B</code><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p><code>mkdir A A/A A/B A/A/A A/A/B A/B/A A/B/B</code><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p><code>mkdir -P A/A/A A/A/B A/B/A A/B/B</code><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><code>mkdir A/A/A A/A/B A/B/A A/B/B A A/A A/B</code><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1206  -->
+  <question type="multichoice">
+    <name>
+      <text>La commande pwd ?</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quel est le résultat fournit par commande <code>pwd</code> ?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_3"><code>pwd </code>fournit le chemin (path) du répertoire courant (depuis la racine du système "/").</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<h5>Le password utilisé par l’utilisateur<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>Le path du répertoire courant<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1211  -->
+  <question type="multichoice">
+    <name>
+      <text>La commande xargs</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Que fournit comme résultat la commande suivante : <code>cat test | xargs ls -l</code><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_9">la commande <code>xargs</code>
+ transforme les informations disponibles sur son entrée standard en une 
+liste d'arguments pour la commande qu'elle a à exécuter. <br></span></p><p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_9">Si <code>test</code> contient une liste de noms de fichier, la commande <code>cat test | xargs ls -l</code> liste ses fichiers.</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>la liste des documents énumérés dans le fichier "test"<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>liste le répertoire courant et affiche le contenu du ficher « test"<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1212  -->
+  <question type="multichoice">
+    <name>
+      <text>La valeur de retour de la dernière commande</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Quel est le résultat de la commande <code>echo $?</code> <br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>
+  la variable <code>$?</code> est la valeur de retour de la dernière commande exécutée par le shell.
+    <br>
+  
+</p>
+<p><code>echo</code> affiche donc cette valeur.
+  <br>
+</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>cela permet de poser une question à l’utilisateur<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>cela affiche la valeur de retour de la dernière commande exécutée<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1216  -->
+  <question type="multichoice">
+    <name>
+      <text>Liste des fichiers trier par taille</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Vous voulez obtenir comme résultat la liste des documents présent dans 
+le répertoire "/etc" <br>triés par tailles croissantes, <br></h5><h5>quelle commande est 
+la bonne ?<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_13">L'option
+<b> -S</b> de <b>ls</b> permet de trier le résultat de la commande par tailles 
+décroissantes. <br>L'option <b>-r</b> force à l'inversion de ce tri. </span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>ls -ltr /etc/</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>ls -l /etc/ | sort -n</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5><code>ls -lSr /etc/</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1210  -->
+  <question type="multichoice">
+    <name>
+      <text>Ne pas effacer le fichier toto !</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Quelle expression n'efface pas de manière irréversible le contenu du fichier toto?<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<h5><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_8">L’opérateur &gt;&gt; ajoute des informations à la fin d'un fichier.&nbsp;<code></code></span></h5><h5><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_8"><code>cat /dev/null &gt;&gt; toto</code> ne rajoute donc "rien" à la fin du fichier toto, <br></span></h5><h5><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_8">cela ne l'efface donc pas.</span><br></h5>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>cp /dev/null toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>dd if=/dev/null of=toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5><code>cat /dev/null &gt;&gt; toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>&gt; toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1220  -->
+  <question type="multichoice">
+    <name>
+      <text>Rechercher les fichiers avec l'extension .c</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>A quoi correspond la commande suivante:&nbsp;<br><code>find . -name \*.c -type f&nbsp;</code></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>La commande <b>find</b> recherche des fichiers (argument -type f) dont le nom se termine par .c (argument -name \*.c)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>&nbsp;Elle affiche le nom des fichiers du répertoire ayant pour extension .c</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Elle recherche les fichiers contenant des mots se terminant par .c</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Aucune de ces réponses</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1207  -->
+  <question type="multichoice">
+    <name>
+      <text>Redirection des erreurs</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quel est le résultat de la commande suivante : <code>cat * 2&gt; toto </code>?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_4"><code>2&gt; toto</code> permet de rediriger le flux <b>"stderr</b>" vers le fichier toto</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>le fichier toto contient la chaîne "* 2"<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>le fichier toto contient la chaîne "**"<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>le fichier toto contient les erreurs de l'exécution de la commande <code>cat</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>le fichier toto contient le contenu des fichiers du répertoire courant<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1208  -->
+  <question type="multichoice">
+    <name>
+      <text>Supprimer les fichiers qui correspondent à une archive</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Quel est le résultat de la commande suivante : <code><br>tar ztf toto.tgz | xargs -d'\n' rm -v</code><br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span><code>tar ztf toto.tgz</code> produit sur sa sortie standard la liste des fichiers archivés dans <b>toto.tgz</b>. <br></span>
+</p>
+<p>La commande <code>xargs</code>
+  transforme les informations disponibles sur son entrée standard en une liste d'arguments pour la commande qu'elle a à exécuter (ici <code>rm</code>).
+  <br>
+</p>
+<p>La commande <code>rm</code>  supprime donc du répertoire courant tous les fichiers présents dans l'archive.
+  <br>
+</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Elle supprime les fichiers de l'archive toto.tgz après décompression<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Elle crée une archive toto.tgz des fichiers du répertoire courant avant de les supprimer<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>Elle supprime les fichiers du répertoire courant qui correspondent à l'archive toto.tgz<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1219  -->
+  <question type="multichoice">
+    <name>
+      <text>Supprimer un répertoire et son contenu</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Comment supprimer le répertoire "toto" et tout son contenu ?<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_16"><code>rmdir</code> refuse de supprimer les répertoires qui ne sont pas vides,</span></p><p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_16"> la commande <code>unlink</code>
+ ne s'applique qu'à des fichiers, pas des répertoires. <br></span></p><p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_16">Seul l'option <b>-r</b> 
+de <b>rm </b>permet de supprimer récursivement le contenu d'un répertoire.</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>rmdir  toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>unlink toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5><code>rm -r toto</code><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><code>ls -R toto
+</code></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1209  -->
+  <question type="multichoice">
+    <name>
+      <text>Trouver un motif dans un fichier</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Quelle commande me permet de trouver un motif dans un fichier ?<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_7">La commande <code>grep</code> permet de retrouver des motifs dans un ou des fichiers. <br></span></p><p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_7">Les autres commandes permettent de<b> localiser des fichiers</b>.</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>find<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>locate<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>which<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>grep<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1204  -->
+  <question type="multichoice">
+    <name>
+      <text>Utilisateurs actifs</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Quelle commande permet de savoir qui sont les utilisateurs <b>actifs connectés</b> au système ?<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_13fbeddf456240a799275a4d574fe84e_solution_1"><code>w</code> et <code>who</code> permettent d'obtenir la liste des utilisateurs présents sur une machine. <br>Aujourd'hui il faut privilégier <code>who</code> qui est une commande du standard POSIX.</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>123</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>whoami<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>users<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<h5>who<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<h5>w<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1221  -->
+  <question type="multichoice">
+    <name>
+      <text>Utiliser le manuel sur une commande inconnue</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><h5>Après avoir consulté le manuel <span style="font-weight:bold;">netcat</span>, </h5><h5>quelle commande doit-on lancer pour l’utiliser comme serveur sur le port 1234 ?</h5><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>l'option <b>-l</b> de netcat permet de le mettre en mode serveur&nbsp;</p><p>et l'option <b>-p 1234</b> permet de préciser le numéro de port sur lequel il doit se mettre en écoute.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<code>nc -server 1234</code>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<code>nc -l -p 1234</code>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

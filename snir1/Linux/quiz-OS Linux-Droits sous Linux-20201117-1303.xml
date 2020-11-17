@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour OS Linux</text>
+    </category>
+    <info format="html">
+      <text>La catégorie par défaut pour les questions partagées dans le contexte « OS Linux ».</text>
+    </info>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour OS Linux/Droits sous Linux</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+  </question>
+
+<!-- question: 1305  -->
+  <question type="multichoice">
+    <name>
+      <text>droits pour user</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quelle commande est utilisée pour attribuer le droit de<b> lecture-écriture</b>&nbsp; au propriétaire du fichier?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>chmod a+r file</h5>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>l'option <b>a+r</b> donne le droit de lecture à tout le monde&nbsp;</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>chmod o+r file</h5>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>l'option <b>o+r </b>donne le droit de lecture aux autres <b>o</b> = <b>other</b></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>chmod u=rw file</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>chmod og-r file</h5>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>l'option og-r retire le droit de lecture pour o other (les autres) et g group (le groupe)</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1308  -->
+  <question type="multichoice">
+    <name>
+      <text>représentation en octal</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Les permissions -rwxr-xr-t sont représentées par la valeur octale&nbsp;<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>0777<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>1755<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>1754<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>2754<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1306  -->
+  <question type="multichoice">
+    <name>
+      <text>suid</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p></p><h5>La commande suivante&nbsp;</h5><h5><code>chmod 4755 a.out</code></h5><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><p>Pour positionner le&nbsp;<strong>SETUID</strong>&nbsp;il existe 2 méthodes,&nbsp;</p><p><em>chmod 4755&nbsp; ou</em><span style="font-size: 0.9375rem;">&nbsp;</span><em style="font-size: 0.9375rem;">chmod u+s</em></p></p><p>SUID (Set owner User ID) est défini pour donner des droits temporaires à un utilisateur pour exécuter un programme ou un fichier avec les autorisations du propriétaire du fichier plutôt que l’utilisateur qui l’exécute.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>définira le bit SUID de a.out</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>ne définira le bit SUID de a.out que si la commande est soumis par l’utilisateur root</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>commande non valide</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>mettra le sticky bit de a.out</h5>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Lorsque le sticky est positionné sur un fichier, cela permet à exécutable de rester en mémoire <br>même si le programme qui l’invoque est terminé, (d’où le terme sticky pour collant en anglais).<br></p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1307  -->
+  <question type="multichoice">
+    <name>
+      <text>umask</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Avec la valeur umask de <b>112</b>, <br>quelle est la permission par défaut attribuée à un fichier nouvellement créé?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Si la valeur de <b>umask</b> est 112, donc la permission par défaut attribuée à un fichier nouvellement créé est&nbsp;</p><p>&nbsp;777 – 112 = <b>665</b>&nbsp;</p><p>&nbsp;avec r=4 / w=2 / x=1 ce qui donne <b>rw-rw-r-x</b></p><p>signifie que les fichiers nouvellement créés sont lisibles en lecture et écriture par le propriétaire et le groupe, mais uniquement en lecture et exécutable pour autres utilisateurs:<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>-x-x-wx</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>-rw-rw-r-</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>-r-xr-x-r-</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>-rw-rw-r-x</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

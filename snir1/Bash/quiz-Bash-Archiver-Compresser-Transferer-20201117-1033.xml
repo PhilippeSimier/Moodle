@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour Page d'accueil</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour Page d'accueil/Shell Bash</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour Page d'accueil/Shell Bash/Archiver-Compresser-Transferer</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+  </question>
+
+<!-- question: 1298  -->
+  <question type="multichoice">
+    <name>
+      <text>relaxe on décompresse</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Quelle commande permet de décompresser un fichier au format GNU Zip ?<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>La commande gunzip (GNU unzip) permet de décompresser des fichiers d’extension.gz.
+  <br>Ainsi, la commande <code>gunzip monFichier.gz</code> va <b>créer</b> un fichier monFichier <b>et détruire</b> le fichier monFichier.gz.
+  <br>
+</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<h5>gzip<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>gunzip<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-50" format="html">
+      <text><![CDATA[<h5>gnuzip<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1300  -->
+  <question type="multichoice">
+    <name>
+      <text>Sauvegarder le répertoire /appli1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Parmi les commandes suivantes, laquelle permet de sauvegarder en le compressant le répertoire <br></h5><p><b>/appli1</b></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>l’option <b>z</b> permet de compresser directement l’archive créée. Dans notre cas, l’archive du répertoire /appli1 sera compressée et sera sous le fichier</p><p>&nbsp;
+  <b>/tmp/appli1.tar.gz</b><br></p><p>L’extraction se demande avec l’option x
+  <br>
+</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<h5>tar -czf /appli1 /tmp/appli1.tar.gz<br></h5>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>L'option f doit être suivi du nom de l'archive<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>tar -czf /tmp/appli1.tar.gz /appli1<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<h5>tar -xvf /tmp/appli1.tar.gz /appli1<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<h5>tar -fuc /tmp/appli1 /appli1.tar.gz<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1304  -->
+  <question type="multichoice">
+    <name>
+      <text>sftp</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>La commande sftp permet :<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Le transfert de fichiers non sécurisé<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Le transfert de fichiers de façon cryptée sur le réseau<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>De télé-travailler&nbsp; depuis chez soi<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>D'envoyer des mails<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1303  -->
+  <question type="multichoice">
+    <name>
+      <text>ssh</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La commande suivante <code>ssh monlogin@serveur1.touchard.edu ls</code> permet de:
+  <br>
+</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>D'exécuter la commande<b> ls </b>sur le répertoire de connexion correspondant à 'monlogin' sur la machine <code>serveur1.touchard.edu</code>
+  <br>
+</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Transférer les fichiers de mon répertoire de connexion local vers <code>serveur1.touchard.edu</code>
+  <br>
+</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Ouvre une session de travail distante sur <code>serveur1.touchard.edu</code> et me permet d'exécuter d'autres commandes par la suite
+  <br>
+</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1296  -->
+  <question type="multichoice">
+    <name>
+      <text>tar créer une archive</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>
+Quelle option de la commande <code> tar </code> est utilisée pour créer une archive?
+  <br>
+</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>L’option <b>-cvf </b>de la commande <b>tar</b> est utilisée pour créer le contenu d’une archive tar ou tar.gz sous Linux. Par exemple :
+  <br>
+</p>
+<code>$ tar -cvf myArchive.tar /home/pi</code>
+
+<p>La signification de chaque lettre :
+</p>
+<ul>
+  <li>c = creat<br></li>
+  <li>v = verbose</li>
+  <li>f = file</li>
+</ul>
+<br>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>-xvf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-cvf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>-ovf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>-tvf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1297  -->
+  <question type="multichoice">
+    <name>
+      <text>tar extraire une archive</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>
+Quelle option de la commande <code> tar </code> est utilisée pour extraire une archive?
+  <br>
+</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>L’option <b>-xvf </b>de la commande <b>tar</b> est utilisée pour extraire le contenu d’une archive tar ou tar.gz sous Linux. Par exemple :
+  <br>
+</p>
+<code>$ tar -xvf myArchive.tar&nbsp;</code>
+
+<p>La signification de chaque lettre :
+</p>
+<ul>
+  <li>x = extract<br></li>
+  <li>v = verbose</li>
+  <li>f = file</li>
+</ul>
+<br>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-xvf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>-cvf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>-ovf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>-tvf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1295  -->
+  <question type="multichoice">
+    <name>
+      <text>tar lister le contenu d'une archive</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>
+Quelle option de la commande <code> tar </code> est utilisée pour lister le contenu d’une archive?
+  <br>
+</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>L’option <b>-tvf </b>de la commande <b>tar</b> est utilisée pour lister&nbsp; le contenu d’une archive tar ou tar.gz sous Linux. Par exemple :
+  <br>
+</p>
+<code>$ tar -tvf myArchive.tar</code>
+
+<p>La signification de chaque lettre :
+</p>
+<ul>
+  <li>t = table of contents</li>
+  <li>v = verbose</li>
+  <li>f = file</li>
+</ul>
+<br>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>-xvf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>-cvf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-33.33333" format="html">
+      <text><![CDATA[<p>-ovf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>-tvf<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1302  -->
+  <question type="multichoice">
+    <name>
+      <text>Transferer avec scp</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5> la commande suivante <code>scp monfichier monlogin@serveur1.touchard.edu </code> permet de:
+  <br>
+  </h5><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Permet d'exécuter la commande 'monfichier' sur la machine 
+  <code>monlogin@serveur1.touchard.edu</code>
+  <br>
+</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Permet de copier le fichier 'monfichier' se trouvant dans le
+répertoire courant vers mon répertoire de connexion sur la machine <code>monlogin@serveur1.touchard.edu</code><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>Est équivalente à la commande <code>scp monlogin@serveur1.touchard.edu:monfichier</code>
+  <br>
+</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><i>Cette commande copie le fichier 'monfichier' se
+trouvant sur la machine distante 'serveur1.touchard.edu' vers le répertoire
+courant.</i><br></p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1301  -->
+  <question type="multichoice">
+    <name>
+      <text>Transferer un fichier</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Pour transférer un fichier de manière rapide et <b>sécurisée</b>, j'utilise
+la commande : [2 réponses]<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Dans les systèmes Unix, il est possible de copier des fichiers entre deux systèmes distants. <br>La commande <b>scp</b> utilise le protocole <b>SSH</b> pour transférer les données.</p><p>La commande<b> sftp </b>permet le transfert de fichiers de façon cryptée sur le réseau.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>telnet<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ftp<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>sftp<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>ssh<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p>scp<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1299  -->
+  <question type="shortanswer">
+    <name>
+      <text>Décompresser et conserver l'archive</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quelle commande permet de décompresser le fichier&nbsp;<b>monFichier.gz</b> au format GNU Zip <br>dans le fichier <b>monfichier </b><br>tout en conservant l'archive originale?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Pour conserver le fichier original et en même temps produire le contenu du fichier décompressé sur la sortie standard, <br>on utilise l’option <b>-c</b>, comme pour la commande gzip. <br>Avec cette option<b> il faut rediriger la sortie standard vers le nom du fichier à produire</b><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text><![CDATA[gunzip -c monFichier.gz > monFichier]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
