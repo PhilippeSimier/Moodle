@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour OSI et IP</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>La catégorie par défaut pour les questions partagées dans le contexte « OSI et IP ».</text>
+    </info>
+  </question>
+
+<!-- question: 1249  -->
+  <question type="ddwtos">
+    <name>
+      <text>Fonction des couches OSI</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Permet de créer, d'utiliser, d'achever une connexion entre deux ordinateurs.&nbsp; <br>Contrôle le dialogue : [[5]]</p><p>Gère la sélection du meilleur chemin entre deux hôtes et la connectivité. <br>Fait référence au routage et à l'adressage : [[3]]</p><p>Définit les signaux et les médias, c'est a dire les spécifications électriques, <br>fils, connecteurs, tensions, débits : [[1]]</p><p>S'occupe de l'accès au média, de l'adressage, la notification des erreurs, assure des trames ordonnées <br>et du&nbsp; contrôle du flux. Fait référence aux adresses MAC : [[2]]</p><p>Gère l'accès des applications au service du réseau, contrôle le flux et les corrections d'erreurs : [[7]]</p><p>Assure le transport des données en les segmentant et les rassemble sur l'hôte récepteur. <br>Envoie un accusé de réception : [[4]]</p><p>Transforme les données reçues dans un format reconnu par les applications. Gère l'encodage des données. [[6]]</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>2.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>Physique</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Liaison de données</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Réseau</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Transport</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Session</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Présentation</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Application</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+<!-- question: 1253  -->
+  <question type="ddwtos">
+    <name>
+      <text>PDU</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Associer à chaque couche son PDU :</p><table>
+<caption></caption>
+<thead>
+<tr>
+<th scope="col">Couche</th>
+<th scope="col">PDU</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>[[1]]</td>
+</tr>
+<tr>
+<td>Présentation</td>
+<td>[[1]]</td>
+</tr>
+<tr>
+<td>Session</td>
+<td>[[1]]</td>
+</tr>
+<tr>
+<td>Transport</td>
+<td>[[2]]</td>
+</tr>
+<tr>
+<td>Réseau</td>
+<td>[[3]]</td>
+</tr>
+<tr>
+<td>Liaison de données</td>
+<td>[[4]]</td>
+</tr>
+<tr>
+<td>Physique</td>
+<td>[[5]]</td>
+</tr>
+</tbody>
+</table>
+<br><br><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>Données</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>Segment</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Paquet</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Trame</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Bit</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+<!-- question: 1257  -->
+  <question type="ddwtos">
+    <name>
+      <text>PDU (ordre)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Donnez dans l'ordre les encapsulations de la couche la plus haute à la couche la plus basse<br><br>
+<table>
+<caption></caption>
+<thead>
+<tr>
+<th scope="col">[[1]]</th>
+<th scope="col">[[2]]</th>
+<th scope="col">[[3]]</th>
+<th scope="col">[[4]]</th>
+<th scope="col">[[5]]</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<br><p><br></p><p><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>Données</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>Segment</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Paquet</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Trame</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>Bit</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+<!-- question: 1266  -->
+  <question type="multichoice">
+    <name>
+      <text>adresses MAC</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Dans quelle couche du modèle OSI, une adresse physique est-elle encapsulée&nbsp;?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Couche physique<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>Couche Liaison de données<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Couche Réseau<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Couche transport<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1265  -->
+  <question type="multichoice">
+    <name>
+      <text>Le meilleur chemin</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quelle couche du modèle de protocole&nbsp;TCP/IP détermine le meilleur chemin sur le réseau&nbsp;?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Le modèle <b>TCP/IP</b> comporte <b>quatre&nbsp;couches</b>&nbsp;: application, transport, 
+Internet et accès réseau. <br>La <b>couche Internet</b> détermine le meilleur 
+chemin à travers le réseau.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Application<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Transport<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>Internet<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Accès réseau<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1271  -->
+  <question type="multichoice">
+    <name>
+      <text>Specifications</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Les spécifications du <b>réseau Internet</b> sont définies dans<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_bc26e699f8e84838891ebe20b0a3325e_solution_1">Les 
+documents spécifiant les protocoles de base de l'Internet tels que IP, 
+TCP, OSPF, ... sont spécifiés par l'Internet<b> Engineering Task Force</b> 
+(<u><b>IETF</b></u>).</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Les documents produits par l'IEEE.<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Les documents produits par l'ISO/OSI.<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Les documents produits par les opérateurs de réseau Internet.<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>Les documents produits de l'IETF.<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1267  -->
+  <question type="multichoice">
+    <name>
+      <text>terme générique</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quel est le terme générique utilisé pour décrire un bloc de données sur n'importe quelle couche d'un modèle de réseau ?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Le terme «<b>&nbsp;<u>unité de données de protocole</u></b>&nbsp;» (<b>PDU</b>) est utilisé pour 
+décrire un bloc de données sur n'importe quelle couche d'un modèle de 
+réseau. <br>La PDU de la <b><u>couche réseau</u></b> est le<u> <b>paquet</b></u>. <br>Une<b> <u>trame</u></b> est l'unité 
+de données de protocole de la <b><u>couche liaison de données</u></b>. <br>La PDU de la 
+<b><u>couche transport</u></b> est le <b><u>segment</u></b>.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>trame<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>paquet<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>Unité de données de protocole (PDU)<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Segment<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1250  -->
+  <question type="shortanswer">
+    <name>
+      <text>couche OSI</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quelle couche du modèle OSI assure la fiabilité, le contrôle du flux et la correction des erreurs ?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>transport</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1252  -->
+  <question type="shortanswer">
+    <name>
+      <text>couche OSI (3)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quelle couche définit les spécifications électriques, mécaniques ?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>physique</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1251  -->
+  <question type="shortanswer">
+    <name>
+      <text>couche OSI (copie)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quelle couche du modèle OSI assure l'adressage physique, la topologie et l'accès au média ?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>liaison de données</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1255  -->
+  <question type="shortanswer">
+    <name>
+      <text>PDU adresses MAC</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Dans quelle encapsulation retrouve-t-on les adresses MAC ?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>liaison de données</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>couche 2</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>liaison</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1254  -->
+  <question type="shortanswer">
+    <name>
+      <text>PDU Paquets</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quelle couche produit des paquets durant l'encapsulation ?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>réseau</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>reseau</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1256  -->
+  <question type="shortanswer">
+    <name>
+      <text>PDU transport</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quel est le résultat de l'encapsulation de couche 4 ?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>segment</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>segment TCP</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1248  -->
+  <question type="truefalse">
+    <name>
+      <text>def adresse IP</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Une adresse IP est une association entre une adresse et un masque de sous réseau.<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1246  -->
+  <question type="truefalse">
+    <name>
+      <text>La passerelle par défaut</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>La passerelle par défaut d'une machine est l'adresse du routeur à contacter lorsqu'on doit envoyer des données à un&nbsp; réseau inconnu.</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1245  -->
+  <question type="truefalse">
+    <name>
+      <text>longueur adresse Ip</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Une adresse IP est composée de 48 bits.</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>L'adresse IPv4 comporte 32 bits (4 octets)</p><p>L'adresse MAC est composée de 48 bits (6 octets)</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1244  -->
+  <question type="truefalse">
+    <name>
+      <text>nb de couches</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Le modèle OSI comporte quatre couches<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[<p>Ne pas confondre modèle TCP et modèle OSI&nbsp;</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1247  -->
+  <question type="truefalse">
+    <name>
+      <text>routeur</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Un routeur est un périphérique de niveau 3</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour OSI et IP/Adresses IPv4</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+  </question>
+
+<!-- question: 1258  -->
+  <question type="ddwtos">
+    <name>
+      <text>Classe d'adresses</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Donnez les classes d'adresses pour les adresses suivantes :</p><p><br>
+<table>
+<caption>classes d'adresses</caption>
+<thead>
+<tr>
+<th scope="col">Adresse</th>
+<th scope="col">Classe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>224.0.0.1</td>
+<td>[[4]]</td>
+</tr>
+<tr>
+<td>10.0.100.254</td>
+<td>[[1]]</td>
+</tr>
+<tr>
+<td>82.0.79.143</td>
+<td>[[1]]</td>
+</tr>
+<tr>
+<td>212.150.23.54</td>
+<td>[[3]]<br></td>
+</tr>
+<tr>
+<td>192.168.18.3</td>
+<td>[[3]]</td>
+</tr>
+<tr>
+<td>155.230.140.1</td>
+<td>[[2]]</td>
+</tr>
+<tr>
+<td>127.0.0.1</td>
+<td>[[1]]</td>
+</tr>
+<tr>
+<td>181.205.10.99</td>
+<td>[[2]]</td>
+</tr>
+</tbody>
+</table>
+<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>classe A</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>classe B</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>classe C</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>classe D</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>classe E</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1268  -->
+  <question type="multichoice">
+    <name>
+      <text>Adressage statique</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Deux types de périphériques se voient généralement attribuer des adresses&nbsp;IP statiques. Lesquels&nbsp;?<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>L'accès aux serveurs et aux périphériques est souvent effectué par le 
+biais d'une adresse&nbsp;IP. Ces périphériques ont donc besoin d'adresses&nbsp;IP 
+prévisibles.</p><p> Les périphériques des utilisateurs finaux ont souvent des 
+adresses affectées de manière dynamique. <br></p><p>Les concentrateurs ne 
+nécessitent pas d'adresses&nbsp;IPv4 pour fonctionner en tant que 
+périphériques intermédiaires.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Clients<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<h5>Serveurs WEB<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<h5>Imprimantes<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Concentrateurs (Hub)<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Ordinateurs portables<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1269  -->
+  <question type="shortanswer">
+    <name>
+      <text>dernière adresse</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>La dernière adresse d'hôte sur le réseau 10.15.25.0/24 est :<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10.15.25.254</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1264  -->
+  <question type="shortanswer">
+    <name>
+      <text>Notation CIDR /11</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Passez l'adresse IP suivante de la notation décimale pointée à la notation CIDR</p><h5>80.240.60.35&nbsp; 255.224.0.0</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>80.240.60.35/11</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>80.240.60.35 /11</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>80.240.60.35 / 11</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1263  -->
+  <question type="shortanswer">
+    <name>
+      <text>Notation CIDR /20</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Passez l'adresse IP suivante de la notation décimale pointée à la notation CIDR</p><h5>10.100.55.24&nbsp; 255.255.240.0</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10.100.55.24/20</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10.100.55.24 /20</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10.100.55.24 / 20</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1262  -->
+  <question type="truefalse">
+    <name>
+      <text>10.x.x.x</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Le réseau de classe A utilisé en adresse privée commence par 10.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1259  -->
+  <question type="truefalse">
+    <name>
+      <text>127.0.0.1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On peut utiliser l'adresse 127.0.0.1 255.0.0.0 pour adresser un ordinateur.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1260  -->
+  <question type="truefalse">
+    <name>
+      <text>169.254.0.0</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>L'adresse <b>169.254.0.0&nbsp; &nbsp;255.255.0.0</b> est une adresse réservée utilisée par les clients qui ne trouve pas de serveur DHCP.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1270  -->
+  <question type="truefalse">
+    <name>
+      <text>même réseau</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Les machines 10.255.2.250/25  et 10.255.2.120/25  appartiennent au même réseau.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_bc26e699f8e84838891ebe20b0a3325e_solution_6">Le 
+préfixe a une longueur de 25. Si ces machines appartiennent au même 
+réseau, les 25 premiers bits de leur adresse doivent être les mêmes. <br></span></p><p><span id="solution_bc26e699f8e84838891ebe20b0a3325e_solution_6">Ceci n’est pas le cas car le<b> 25e bit</b> a une valeur de <b>1</b> pour la première 
+adresse, et de <b>0</b> pour la seconde.</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1261  -->
+  <question type="truefalse">
+    <name>
+      <text>Privées classe C</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On peut utiliser les adresses de 192.168.0.0/24 à 192.168.255.255/24 dans un réseau privé de classe C</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

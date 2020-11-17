@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Les nombres fractionnaires en binaire</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+  </question>
+
+<!-- question: 1169  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Décimale fractionnaire -> Binaire fractionnaire]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Soit la valeur décimale suivante : 2,25<br></h5>
+<p>Donnez la valeur binaire correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">pondération</th>
+
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">8</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">4</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">2</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">,</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/2</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/4</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/8</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/16</th>
+    </tr>
+    <tr>
+      <th></th>
+
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>3</sup>
+        <br>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>2</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>1</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>0</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">,</th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>-1</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>-2</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>-3</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>-4</sup>
+      </th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;"><b>,</b>
+        <br>
+      </td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><b>2.5 = 2 + 0.5</b></p><p><b>2 = 2<sup>1</sup><br></b></p><p><b>0.5 = 1/2 = 2<sup>-1</sup></b><br></p><p>2.5 = 10.01 <br></p><p>00<b>10,01</b>00<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1170  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Décimale fractionnaire -> Binaire fractionnaire (2)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Soit la valeur décimale suivante : 6,75<br></h5>
+<p>Donnez la valeur binaire correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">pondération</th>
+
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">8</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">4</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">2</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">,</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/2</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/4</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/8</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/16</th>
+    </tr>
+    <tr>
+      <th></th>
+
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>3</sup>
+        <br>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>2</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>1</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>0</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">,</th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>-1</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>-2</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>-3</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">2<sup>-4</sup>
+      </th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;"><b>,</b>
+        <br>
+      </td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><b>6.75 = 4 + 2 + 0.5 + 0.25<br></b></p><p><b>6.75 = 2<sup>2 </sup>+ 2<sup>1</sup> + 2<sup>-1</sup> + 2<sup>-2</sup><br></b></p><p>6.75 = <b>110.11 </b><br></p><p>0<b>110,11</b>00<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1173  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Décimale fractionnaire -> Hexadecimal fractionnaire]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Soit la valeur décimale suivante : 26,5<br></h5>
+<p>Donnez la valeur hexadecimale correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">pondération</th>
+
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">4096<br></th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">256<br></th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">16<br></th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">,</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/16</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/256</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/4096</th>
+      <th scope="col" style="padding: 10px; border : 1px ridge black; text-align : center;">1/16<sup>4</sup></th>
+    </tr>
+    <tr>
+      <th></th>
+
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">16<sup>3</sup>
+        <br>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">16<sup>2</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">16<sup>1</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">16<sup>0</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">,</th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">16<sup>-1</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">16<sup>-2</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">16<sup>-3</sup>
+      </th>
+      <th scope="col" style="padding: 10px;border : 1px ridge black; text-align : center;">16<sup>-4</sup>
+      </th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[11]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;"><b>,</b>
+        <br>
+      </td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[9]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 10px; border : 1px ridge black; text-align : center;">[[1]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><b>26,5 = 16 + 10 + 8/16</b></p><p><b>26,5<sub>(10)</sub> = 1A,8<sub>(16)</sub><br></b></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>2</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>3</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>4</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>5</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>6</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>7</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>8</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>9</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>A</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>B</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>C</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>D</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>E</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>F</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1171  -->
+  <question type="ddwtos">
+    <name>
+      <text>Format simple précision (32 bits)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Un nombre flottant simple précision est stocké dans un mot de 32 bits&nbsp;:<br></h5>
+<p>Donnez la position du bit de signe, de l'exposant et de la mantisse:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>
+    <h2><span id="Format_d'un_nombre_en_virgule_flottante">nombre en virgule flottante</span></h2>
+    <br>
+  </caption>
+  <thead>
+    <tr>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">pos</th>
+
+
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">31
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">30
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">29
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">28
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">27
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">26</th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">25
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">24
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">23
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">22
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">21
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">20
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">19..1
+        <br>
+      </th>
+      <th scope="col" style="padding: 5px; border : 1px ridge black; text-align : center;">0</th>
+    </tr>
+
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="padding: 5px; border : 1px ridge black; text-align : center;">[[2]]</td>
+    </tr>
+  </tbody>
+</table>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><p>Un nombre flottant simple précision est stocké avec <br></p>1 bit de signe,&nbsp; <br></p><p>8 bits pour l'exposant <br></p><p>et 23 bits pour la mantisse</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>S</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>M</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>E</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1188  -->
+  <question type="multichoice">
+    <name>
+      <text>Mantisse dénormalisée</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Quelle est la valeur du champ E (exposant) pour un codage à mantisse dénormalisée ?<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Si l'exposant biaisé est nul, alors le nombre représenté est <i>dénormalisé</i>.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>1<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>-1<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>0<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>2<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1186  -->
+  <question type="multichoice">
+    <name>
+      <text>Multiplier par 2 puissance n</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>10 0011 0100<sub>(2)</sub> =<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<h5>10 0011 01<sub>(2)</sub> x 2<sup>2</sup><sub></sub></h5><p>
+   multiplier par 2<sup>2 </sup>revient à décaler la virgule de deux rangs vers la droite.</p><p><h5>10 0011 0100 0000<sub>(2) </sub>x 2<sup>-4 </sup></h5>multiplier par 2<sup>-4 </sup>revient à décaler la virgule de quatre rangs vers la gauche.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p><h5>10 0011 01<sub>(2)</sub> x 2<sup>2</sup><sub><br></sub></h5><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><h5>10 0011 0100 00<sub>(2) </sub>x 2<sup>2</sup><sub><br></sub></h5><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p><h5>10 0011 01<sub>(2)</sub> x 16<br></h5><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p><h5>10 0011 0100 0000<sub>(2) </sub>x 2<sup>-4 </sup></h5><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1187  -->
+  <question type="multichoice">
+    <name>
+      <text>Normaliser la Mantisse</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>La mantisse normalisée et l'exposant du nombre&nbsp; <br>10 0011 0100<sub>(2) </sub><br>est :</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>La mantisse normalisée commence toujours par&nbsp; <b>1,</b><br></p><p>1,000 110100 * 2<sup>9</sup></p><p>La mantisse est dénormalisée pour les nombres <br></p><p>0&nbsp; NaN -infini et +l'infini<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>1,000 1101 * 2<sup>9</sup><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>0,1000110100 * 2<sup>10</sup><br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>1,000 1101 * 2<sup>10</sup></h5>
+<br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>1,000 1101 * 2<sup>-9</sup></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1191  -->
+  <question type="multichoice">
+    <name>
+      <text>Représentation dénormalisée IEEE 754 infinity</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Donnez la représentation associée au codage IEEE 754 simple précision : </p>
+<h5><span style="color : green;">0 </span><span style="color : red;">1111 1111</span><span style="color : blue;"> 0000 0000 0000 0000 0000 000</span>
+  <br>
+</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>si l'exposant biaisé est égal à
+  <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle 2^{e}-1}">
+    <semantics>
+      <mrow>
+        <mstyle displaystyle="true" scriptlevel="0">
+          <msup>
+            <mn>2</mn>
+            <mrow>
+              <mi>e</mi>
+            </mrow>
+          </msup>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mstyle>
+      </mrow>
+      <annotation encoding="application/x-tex">{\displaystyle 2^{e}-1}</annotation>
+    </semantics>
+  </math>= 255, et si la mantisse est nulle, le nombre est ±infini (selon le bit de signe)
+  <br>ici +infini
+  <br>
+</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>123</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>+Infinity<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>-Infinity<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>NaN<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Aucune de ces réponses.<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1192  -->
+  <question type="multichoice">
+    <name>
+      <text>Représentation dénormalisée IEEE 754 NaN</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Donnez la représentation associée au codage IEEE 754 simple précision : </p>
+<h5><span style="color : green;">0 </span><span style="color : red;">1111 1111</span><span style="color : blue;"> 0000 0000 0000 0000 0000 001</span>
+  <br>
+</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>si l'exposant biaisé est égal à
+  <math xmlns="http://www.w3.org/1998/Math/MathML" alttext="{\displaystyle 2^{e}-1}">
+    <semantics>
+      <mrow>
+        <mstyle displaystyle="true" scriptlevel="0">
+          <msup>
+            <mn>2</mn>
+            <mrow>
+              <mi>e</mi>
+            </mrow>
+          </msup>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mstyle>
+      </mrow>
+      <annotation encoding="application/x-tex">{\displaystyle 2^{e}-1}</annotation>
+    </semantics>
+  </math>= 255, et que la mantisse n'est pas nulle, le nombre est <b>NaN</b> (Not a Number : pas un nombre).<br><br>
+</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>+Infinity<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>-Infinity<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5>NaN<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>0<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1190  -->
+  <question type="multichoice">
+    <name>
+      <text>Représentation dénormalisée IEEE 754 Zéro</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Donnez la représentation IEEE 754 simple précision du nombre 0<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>0.0<sub>(10)</sub> = 0.0000<sub>(2)</sub></p><p>La mantisse du nombre 0 ne peut pas être normalisée car la virgule ne peut pas être placée après le premier 1 (il n'y en a pas pour zéro)</p><p>La norme IEEE 754 a prévu de le représenter avec un exposant biaisé de valeur 0 avec une mantisse à 0 <br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>123</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5><span style="color : green;">0 </span><span style="color : red;">0000 0000</span><span style="color : blue;"> 0000 0000 0000 0000 0000 000</span>
+  <br>
+</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><span style="color : green;">0 </span><span style="color : red;">1111 1111</span><span style="color : blue;"> 0000 0000 0000 0000 0000 000</span>
+  <br>
+</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><span style="color : green;">0 </span><span style="color : red;">0111 1111</span><span style="color : blue;"> 0000 0000 0000 0000 0000 000</span>
+  <br>
+</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><span style="color : green;">0 </span><span style="color : red;">0000 0001</span><span style="color : blue;"> 0000 0000 0000 0000 0000 000</span>
+  <br>
+</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1189  -->
+  <question type="multichoice">
+    <name>
+      <text>Représentation IEEE754 simple précision</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Donnez la représentation IEEE 754 simple précision du nombre suivant 78,25<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>78,25 = 0100 1110,01 = 1,0011 1001 x 2<sup>6</sup></p><p>exposant biaisé: 6+127 = 133 =<sup> </sup>1000 0101<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>123</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<h5><span style="color : green;">0 </span><span style="color : red;">1000 0101</span><span style="color : blue;"> 0011 1001 0000 0000 0000 000</span>
+  <br>
+</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><span style="color : green;">0 </span><span style="color : red;">1000 0100</span><span style="color : blue;"> 0011 1001 0000 0000 0000 000</span>
+  <br>
+</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><span style="color : green;">0 </span><span style="color : red;">1000 0100</span><span style="color : blue;"> 0011 0001 0000 0000 0000 000</span>
+  <br>
+</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5><span style="color : green;">0 </span><span style="color : red;">1000 0101</span><span style="color : blue;"> 0001 1000 0000 0000 0000 000</span>
+  <br>
+</h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1136  -->
+  <question type="shortanswer">
+    <name>
+      <text><![CDATA[Binaire fractionnaire -> Décimal]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Donnez la représentation décimale (en base 10) du nombre suivant<br></h5><h5>(100,001)<sub>2</sub><br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>(100)<sub>2</sub> = 4</p><p>(0.001)<sub>2</sub> = 1/8 = 0.125</p><p>4 + 0.125 = 4.125<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4,125</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>4.125</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1172  -->
+  <question type="shortanswer">
+    <name>
+      <text>le biais de l'exposant</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>
+  Quelle est la<b> valeur du biais de l'exposant </b>pour les nombres flottants sur 32 bits <br>
+</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>127</text>
+      <feedback format="html">
+        <text><![CDATA[<p>Le biais est de <b>2<sup>(8−1)</sup> − 1</b> (<i>8</i> représente le nombre de bits de l'exposant)&nbsp;; il s'agit donc d'une valeur constante une fois que le nombre de bits <i>de l'exposant</i> est fixé.</p><p>2<sup>8−1</sup> − 1 = 2<sup>7</sup> -1 = 128 - 1 = <b>127</b><br></p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

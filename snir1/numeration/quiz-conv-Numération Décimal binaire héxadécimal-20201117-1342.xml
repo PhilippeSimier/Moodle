@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Numération Décimal // binaire // héxadécimal</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+  </question>
+
+<!-- question: 1039  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Conversion Décimale -> Binaire]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Soit la valeur décimale suivante : 133</h5>
+<p>Donnez la valeur binaire correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">pondération</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">128</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">64</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">32</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">16</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">8</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>133 - <b>128</b> = 5<br>5 - <b>4</b> = <b>1</b></p><h5>133 = 128 + 4 + 1<br></h5>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1041  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Conversion Décimale -> Binaire (2)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Soit la valeur décimale suivante : 0</h5>
+<p>Donnez la valeur binaire correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">pondération</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">128</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">64</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">32</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">16</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">8</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1042  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Conversion Décimale -> Binaire (3)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Soit la valeur décimale suivante :<b> 15</b>
+  <br>
+</h5>
+<p>Donnez la valeur binaire correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">pondération</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">128</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">64</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">32</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">16</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">8</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>15 = 8 + 4 + 2 +1<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1163  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Conversion Décimale -> Binaire (4)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Soit la valeur décimale suivante : <b>192</b></p>
+<p>Donnez la valeur binaire correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">pondération</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">128</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">64</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">32</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">16</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">8</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>192 = 128 + 64<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1040  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Convertion Binaire->Hexa]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Soit la valeur binaire suivante.</p>
+<p>Compléter le tableau
+  <br>
+</p>
+<br>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption></caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">0</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">0</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">Valeur quartet (en décimal)</td>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">Valeur quartet (en décimal)</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">[[14]]</td>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">[[7]]</td>
+
+    </tr>
+    <tr>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">Valeur quartet (en hexa)</td>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">Valeur quartet (en hexa)</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">[[20]]</td>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">[[7]]</td>
+
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>2</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>3</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>4</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>5</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>6</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>7</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>8</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>9</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>10</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>11</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>12</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>13</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>14</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>15</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>A</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>B</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>C</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>D</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>E</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>F</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1043  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Convertion Binaire->Hexa (2)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Soit la valeur binaire suivante.</p>
+<p>Compléter le tableau
+  <br>
+</p>
+<br>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption></caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">0</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">0<br></th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1<br></th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">0</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">0<br></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">Valeur quartet (en décimal)</td>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">Valeur quartet (en décimal)</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">[[9]]</td>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">[[6]]</td>
+
+    </tr>
+    <tr>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">Valeur quartet (en hexa)</td>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">Valeur quartet (en hexa)</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">[[9]]</td>
+      <td colspan="4" style="border : 1px ridge black; text-align : center;">[[6]]</td>
+
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>2</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>3</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>4</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>5</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>6</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>7</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>8</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>9</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>10</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>11</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>12</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>13</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>14</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>15</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>A</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>B</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>C</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>D</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>E</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>F</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1037  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Convertion Hexa->Binaire]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Soit la valeur hexadécimale suivante : 3D</p>
+<p>Donnez la valeur binaire correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1044  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Convertion Hexa->Binaire (2)]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Soit la valeur hexadécimale suivante : 11<sub>(16)</sub></h5>
+<p>Donnez la valeur binaire correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>A chaque chiffre hexadécimal correspond un nombre binaire sur 4 chiffres<br>1<sub>(16)</sub> = 0001<sub>(2)</sub></p><p>11<sub>(16)</sub> = 0001 0001<sub>(2)<br></sub></p><p><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1168  -->
+  <question type="ddwtos">
+    <name>
+      <text><![CDATA[Convertion Octal -> Binaire]]></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Soit la valeur octale suivante : <b>744<sub>(8)</sub></b><br>
+</p>
+<p>Donnez la valeur binaire correspondante:</p>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit8</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>0</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1038  -->
+  <question type="ddwtos">
+    <name>
+      <text>Poids des bits</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Placer les valeurs des pondérations selon la place des bits</h5><p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur binaire</caption>
+  <thead>
+    <tr>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit7</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit6</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit5</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit4</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit3</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit2</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit1</th>
+      <th scope="col" style="border : 1px ridge black; text-align : center;">bit0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border : 1px ridge black; text-align : center;">[[8]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[7]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[6]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[5]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[4]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>2</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>4</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>8</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>16</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>32</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>64</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>128</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+<!-- question: 1174  -->
+  <question type="ddwtos">
+    <name>
+      <text>Poids des chiffres en hexadécimal</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Placer les valeurs des pondérations selon la place des chiffres hexadécimaux<br></h5>
+<p>
+  <br>
+</p>
+
+<table style="border : 1px ridge black; border-collapse: collapse;">
+  <caption>valeur hexadécimale</caption>
+  <thead>
+    <tr>
+
+      <th scope="col" style="pading: 5px; border : 1px ridge black; text-align : center;">chiffre3</th>
+      <th scope="col" style="pading: 5px; border : 1px ridge black; text-align : center;">chiffre2</th>
+      <th scope="col" style="pading: 5px; border : 1px ridge black; text-align : center;">chiffre1</th>
+      <th scope="col" style="pading: 5px; border : 1px ridge black; text-align : center;">chiffre0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+
+      <td style="border : 1px ridge black; text-align : center;">[[4]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[3]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[2]]</td>
+      <td style="border : 1px ridge black; text-align : center;">[[1]]</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>1</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>16</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>256</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>4096</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>2048</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>32</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>64</text>
+      <group>1</group>
+    </dragbox>
+    <dragbox>
+      <text>128</text>
+      <group>1</group>
+    </dragbox>
+  </question>
+
+</quiz>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Défaut pour OSI et IP/Adresses IPv4</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+  </question>
+
+<!-- question: 1258  -->
+  <question type="ddwtos">
+    <name>
+      <text>Classe d'adresses</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Donnez les classes d'adresses pour les adresses suivantes :</p><p><br>
+<table>
+<caption>classes d'adresses</caption>
+<thead>
+<tr>
+<th scope="col">Adresse</th>
+<th scope="col">Classe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>224.0.0.1</td>
+<td>[[4]]</td>
+</tr>
+<tr>
+<td>10.0.100.254</td>
+<td>[[1]]</td>
+</tr>
+<tr>
+<td>82.0.79.143</td>
+<td>[[1]]</td>
+</tr>
+<tr>
+<td>212.150.23.54</td>
+<td>[[3]]<br></td>
+</tr>
+<tr>
+<td>192.168.18.3</td>
+<td>[[3]]</td>
+</tr>
+<tr>
+<td>155.230.140.1</td>
+<td>[[2]]</td>
+</tr>
+<tr>
+<td>127.0.0.1</td>
+<td>[[1]]</td>
+</tr>
+<tr>
+<td>181.205.10.99</td>
+<td>[[2]]</td>
+</tr>
+</tbody>
+</table>
+<br><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <dragbox>
+      <text>classe A</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>classe B</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>classe C</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>classe D</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+    <dragbox>
+      <text>classe E</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+  </question>
+
+<!-- question: 1268  -->
+  <question type="multichoice">
+    <name>
+      <text>Adressage statique</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>Deux types de périphériques se voient généralement attribuer des adresses&nbsp;IP statiques. Lesquels&nbsp;?<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>L'accès aux serveurs et aux périphériques est souvent effectué par le 
+biais d'une adresse&nbsp;IP. Ces périphériques ont donc besoin d'adresses&nbsp;IP 
+prévisibles.</p><p> Les périphériques des utilisateurs finaux ont souvent des 
+adresses affectées de manière dynamique. <br></p><p>Les concentrateurs ne 
+nécessitent pas d'adresses&nbsp;IPv4 pour fonctionner en tant que 
+périphériques intermédiaires.<br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Votre réponse est correcte.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Votre réponse est partiellement correcte.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Votre réponse est incorrecte.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Clients<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<h5>Serveurs WEB<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<h5>Imprimantes<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Concentrateurs (Hub)<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<h5>Ordinateurs portables<br></h5>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1269  -->
+  <question type="shortanswer">
+    <name>
+      <text>dernière adresse</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h5>La dernière adresse d'hôte sur le réseau 10.15.25.0/24 est :<br></h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10.15.25.254</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1264  -->
+  <question type="shortanswer">
+    <name>
+      <text>Notation CIDR /11</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Passez l'adresse IP suivante de la notation décimale pointée à la notation CIDR</p><h5>80.240.60.35&nbsp; 255.224.0.0</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>80.240.60.35/11</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>80.240.60.35 /11</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>80.240.60.35 / 11</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1263  -->
+  <question type="shortanswer">
+    <name>
+      <text>Notation CIDR /20</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Passez l'adresse IP suivante de la notation décimale pointée à la notation CIDR</p><h5>10.100.55.24&nbsp; 255.255.240.0</h5>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <usecase>0</usecase>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10.100.55.24/20</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10.100.55.24 /20</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>10.100.55.24 / 20</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1262  -->
+  <question type="truefalse">
+    <name>
+      <text>10.x.x.x</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Le réseau de classe A utilisé en adresse privée commence par 10.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1259  -->
+  <question type="truefalse">
+    <name>
+      <text>127.0.0.1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On peut utiliser l'adresse 127.0.0.1 255.0.0.0 pour adresser un ordinateur.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1260  -->
+  <question type="truefalse">
+    <name>
+      <text>169.254.0.0</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>L'adresse <b>169.254.0.0&nbsp; &nbsp;255.255.0.0</b> est une adresse réservée utilisée par les clients qui ne trouve pas de serveur DHCP.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1270  -->
+  <question type="truefalse">
+    <name>
+      <text>même réseau</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Les machines 10.255.2.250/25  et 10.255.2.120/25  appartiennent au même réseau.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p><span id="solution_bc26e699f8e84838891ebe20b0a3325e_solution_6">Le 
+préfixe a une longueur de 25. Si ces machines appartiennent au même 
+réseau, les 25 premiers bits de leur adresse doivent être les mêmes. <br></span></p><p><span id="solution_bc26e699f8e84838891ebe20b0a3325e_solution_6">Ceci n’est pas le cas car le<b> 25e bit</b> a une valeur de <b>1</b> pour la première 
+adresse, et de <b>0</b> pour la seconde.</span><br></p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1261  -->
+  <question type="truefalse">
+    <name>
+      <text>Privées classe C</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>On peut utiliser les adresses de 192.168.0.0/24 à 192.168.255.255/24 dans un réseau privé de classe C</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
